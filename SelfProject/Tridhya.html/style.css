@@ -1,0 +1,80 @@
+
+
+.right {
+    margin-right: 100px;
+}
+body{
+    font-family:sans-serif !important;
+}
+#dropdowncolor{
+    color: #00517c ;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+#drop{
+    margin-left: -260px;
+    margin-top: 20px;
+}
+#drop2{
+    margin-left: -200px;
+    margin-top: 20px;
+}
+#drop3{
+    margin-top: 20px;
+}
+#drop4{
+    margin-top: 20px;
+}
+#drop5{
+    margin-top: 20px;
+}
+#bgimg{
+    background: url(Images/hero-bg.jpg) center center/cover;
+    height: 85vh;
+}
+#bgimg h1{
+    font-size: 46px;
+    position: absolute;
+    top: 140px;
+    left: 80px;
+}
+#bgimg p{
+    position: absolute;
+    top: 320px;
+    left: 80px;
+}
+#bgimg button{
+    position: absolute;
+    top: 370px;
+    left: 80px;
+}
+.btn {
+    background-color: #06b6e8 !important;
+}
+.btn:hover{
+    background-color: #00517c !important;
+}
+.bgimg2{
+    background-color: #5fb6e64f;
+}
+.bgimg2 h1{
+    color: #00517c;
+    font-weight: 600;
+}
+.bgimg2 span{
+    color: #06b6e8;
+}
+.companies img{
+    width: 170px;
+}
+.heading2 h1{
+    color: #00517c;
+    font-size: 44px;
+    font-weight: bolder;
+}
+.heading2 span{
+    color: #06b6e8;
+}.heading2 p{
+    font-size: 15px;
+}

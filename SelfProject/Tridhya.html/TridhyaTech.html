@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tridhya Tech</title>
+    <!-- Style CSS  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Font -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container gap-4">
+            <!-- Left side content (Logo) -->
+            <div class="navbar-brand me-4" href="#">
+                <img src="Images/logo.svg" alt="" height="40px">
+            </div>
+
+            <!-- Navbar toggler for mobile view -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links aligned to the right -->
+            <div class="collapse navbar-collapse justify-content-between right ms-4" id="navbarNav">
+                <ul class="navbar-nav">
+                    <ul class="navbar-nav">
+                        <!-- Dropdown for Services -->
+                        <li class="nav-item dropdown" id="dropdowncolor">
+                            <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Services
+                            </a>
+                            <div class="dropdown-menu p-2" aria-labelledby="servicesDropdown" id="drop">
+                                <div class="dropdown-columns d-flex ">
+                                    <!-- Digital Experience Column -->
+                                    <div class="column">
+                                        <h6 class="fw-bold">Digital Experience</h6>
+                                        <ul class="list-unstyled">
+                                            <li><a class="dropdown-item" href="#">B2B/B2C Portals</a></li>
+                                            <li><a class="dropdown-item" href="#">Mobile Application Development</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">eCommerce</a></li>
+                                            <li><a class="dropdown-item" href="#">UI/UX Design Services</a></li>
+                                        </ul>
+                                    </div>
+                                    <!-- Cloud Services Column -->
+                                    <div class="column">
+                                        <h6 class="fw-bold">Cloud Services</h6>
+                                        <ul class="list-unstyled">
+                                            <li><a class="dropdown-item" href="#">Cloud Migration</a></li>
+                                            <li><a class="dropdown-item" href="#">Management and Support</a></li>
+                                            <li><a class="dropdown-item" href="#">Cloud Optimization</a></li>
+                                            <li><a class="dropdown-item" href="#">Cloud Security</a></li>
+                                        </ul>
+                                    </div>
+                                    <!-- Data and Analytics Column -->
+                                    <div class="column">
+                                        <h6 class="fw-bold">Data And Analytics</h6>
+                                        <ul class="list-unstyled">
+                                            <li><a class="dropdown-item" href="#">Data Engineering</a></li>
+                                            <li><a class="dropdown-item" href="#">Data Visualization</a></li>
+                                            <li><a class="dropdown-item" href="#">Data Driven Decisions</a></li>
+                                            <li><a class="dropdown-item" href="#">Data Driven AI/ML</a></li>
+                                        </ul>
+                                    </div>
+                                    <!-- Digital Enterprise Column -->
+                                    <div class="column">
+                                        <h6 class="fw-bold">Digital Enterprise</h6>
+                                        <ul class="list-unstyled">
+                                            <li><a class="dropdown-item" href="#">Application Services</a></li>
+                                            <li><a class="dropdown-item" href="#">Business Process Automation</a></li>
+                                            <li><a class="dropdown-item" href="#">Modern Workplace</a></li>
+                                            <li><a class="dropdown-item" href="#">Liferay DXP</a></li>
+                                            <li><a class="dropdown-item" href="#">MuleSoft Services</a></li>
+                                            <li><a class="dropdown-item" href="#">Alfresco</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <!-- Solutions Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="#" role="button" aria-expanded="false">
+                            Solutions
+                        </a>
+                    </li>
+
+                    <!-- Industries Dropdown -->
+                    <li class="nav-item dropdown">
+                        <div class="dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownInsights" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Industries
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="drop3">
+                                <li><a class="dropdown-item" href="#">Retail & Ecommerce</a></li>
+                                <li><a class="dropdown-item" href="#">Transport And Logistics</a></li>
+                                <li><a class="dropdown-item" href="#">Real Estate</a></li>
+                                <li><a class="dropdown-item" href="#">Insurance</a></li>
+                                <li><a class="dropdown-item" href="#">Manufacturing</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <!-- Who we are Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="whoWeAreDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Who we are
+                        </a>
+                        <div class="dropdown-menu p-3" aria-labelledby="whoWeAreDropdown" id="drop2">
+                            <!-- Use d-flex and flex-column to align vertically -->
+                            <div class="d-flex gap-3">
+                                <div>
+                                    <h6 class="fw-bold">About us</h6>
+                                    <p class="mb-0">Tridhya Tech is a full-service software development company that
+                                        caters its services to eCommerce, web, and mobile application development.</p>
+                                </div>
+                                <div class="dropdown-divider"></div>
+                                <div>
+                                    <h6 class="fw-bold">Leadership</h6>
+                                    <p class="mb-0">Effective leadership involves motivating, empowering, and guiding
+                                        individuals and teams towards success, while also fostering a positive and
+                                        productive work environment.</p>
+                                </div>
+                                <div class="dropdown-divider"></div>
+                                <div>
+                                    <h6 class="fw-bold">Partnership</h6>
+                                    <p class="mb-0">Tridhya Tech, a company specializing in digital commerce and
+                                        experience transformation, recently joined the prestigious Adobe Solution
+                                        Partner Program as a Bronze Partner.</p>
+                                </div>
+                                <div class="dropdown-divider"></div>
+                                <div>
+                                    <h6 class="fw-bold">Infrastructure</h6>
+                                    <p class="mb-0">Tridhya Tech has a stable infrastructure for smooth operations for
+                                        development environment and internal/external communication.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Investors Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownInvestors" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Investors
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownInvestors" id="drop4">
+                            <li><a class="dropdown-item" href="#">Investor Relations</a></li>
+                            <li><a class="dropdown-item" href="#">Financial Reports</a></li>
+                            <li><a class="dropdown-item" href="#">Stock Information</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Insights Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownInsights" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Insights
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownInsights" id="drop5">
+                            <li><a class="dropdown-item" href="#">Blog</a></li>
+                            <li><a class="dropdown-item" href="#">Case Studies</a></li>
+                            <li><a class="dropdown-item" href="#">Whitepapers</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <button class="btn rounded-0 text-white ps-3 pe-3 pt-2 pb-2">
+                Contact us
+            </button>
+        </div>
+    </nav>
+
+
+    <!------------ Section 1 ------------>
+    <section>
+        <div class="container-fluid position-relative" id="bgimg">
+            <h1 class=" text-white">
+                End-to-end Digital <br>Transformation <strong>Enabled for <br> Enterprises</strong>
+            </h1>
+            <p class="text-white">Sculpting the success of enterprises with the building blocks of technology and
+                innovation.
+            </p>
+            <button class="btn p-3 ps-4 pe-4 rounded-0 text-white">Lets discuss your idea</button>
+        </div>
+    </section>
+
+
+    <!------------ Section 2 ------------>
+    <section>
+        <div class="container-fluid p-3 pt-5 bgimg2">
+            <h1 class="d-flex justify-content-center p-3"><b>Trusted by <span>350+</span> companies worldwide</b></h1>
+            <div
+                class="container companies d-flex flex-wrap justify-content-center align-space-between gap-3 pt-5 pb-5">
+                <img src="Images/orix1.webp" alt=""> <img src="Images/trinaz1.webp" alt="">
+                <img src="Images/gacl1.webp" alt=""> <img src="Images/kotak1.webp" alt="">
+                <img src="Images/yaskawa1.webp" alt=""> <img src="Images/lt1.webp" alt="">
+                <img src="Images/mahindra1.webp" alt=""> <img src="Images/petronas1.webp" alt="">
+                <img src="Images/puma1.webp" alt=""> <img src="Images/birla1.webp" alt="">
+                <img src="Images/peugeot1.webp" alt=""> <img src="Images/tech-mahindra1.webp" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <!------------ Section 3 ------------>
+    <section>
+        <div class="container heading2 pt-5">
+            <h1 class="text-center"><span>Customer Experience</span> + backed <br>with cutting edge
+                <span>technologies</span></h1>
+            <p class=" text-center text-secondary">
+                Driving technological empowerment through end-to-end technical solutions for every industry,
+                Tridhya Tech is <br>your perfect partner when it comes to your software development and digital presence
+                needs.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- Bootstrap JS (Popper.js and Bootstrap JS) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
